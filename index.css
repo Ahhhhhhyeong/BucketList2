@@ -31,3 +31,14 @@
     background-size: cover;
     background-position: center;
 }
+button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: red;
+    border: none;
+}
+button:hover{
+  background-color: #4CAF50;
+  color: white;
+}

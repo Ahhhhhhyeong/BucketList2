@@ -26,11 +26,15 @@ function paintToDo(text) {
     delBtn.innerText = "✖";
     delBtn.addEventListener("click", deleteToDo);
     const span = document.createElement("span");
-    const newId = toDos.length + 1;
+    const newId = toDos.length + 1;  
+    let num = newId>5 ? (newId % 5 == 0 ? newId%5+1 : newId % 5) : newId;      
     span.innerText = text;
     div.appendChild(delBtn);
     div.appendChild(span);
     div.id = newId;
+    div.classList.add('bucket');
+    div.classList.add('img'+num+'-t4');
+    div.classList.add('center');
     toDoList.appendChild(div);
     const toDoObj = {
         text: text,
