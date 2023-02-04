@@ -20,20 +20,24 @@ function saveToDos(){
     localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
 }
 
+function doneToDos(){
+    console.log("click");
+}
+
 function paintToDo(text) {
-    const div = document.createElement("div");
+    const div = document.createElement("div");    
     const delBtn = document.createElement("button");
     delBtn.innerText = "✖";
-    delBtn.addEventListener("click", deleteToDo);
+    delBtn.addEventListener("click", deleteToDo);    
     const span = document.createElement("span");
     const newId = toDos.length + 1;  
-    let num = newId>5 ? (newId % 5 == 0 ? newId%5+1 : newId % 5) : newId;      
+    let num = Math.floor(Math.random() * 10) + 1;
     span.innerText = text;
-    div.appendChild(delBtn);
+    div.appendChild(delBtn);    
     div.appendChild(span);
     div.id = newId;
     div.classList.add('bucket');
-    div.classList.add('img'+num+'-t4');
+    div.classList.add('img'+num+'-custom');
     div.classList.add('center');
     toDoList.appendChild(div);
     const toDoObj = {

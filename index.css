@@ -20,16 +20,7 @@
     width: 160px;
     height: 160px;
     font-family: 'Hahmlet', serif;
-}
-.img1 {
-    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
-    background-size: cover;
-    background-position: center;
-}
-.img2 {
-    background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
-    background-size: cover;
-    background-position: center;
+    color: #333;
 }
 button{
     background-color: transparent;
@@ -41,4 +32,55 @@ button{
 button:hover{
   background-color: #4CAF50;
   color: white;
+}
+
+.img1-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/12/16/01/badge-150755_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+.img2-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/29/13/13/scrapbook-2017960_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+.img3-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/12/15/56/stars-150609_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+.img4-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/18/20/40/sticker-1990852_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+.img5-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/12/06/12/scrapbook-1387025_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+.img6-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/06/10/08/background-1311251_960_720.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img7-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/24/15/48/pattern-1477380_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+.img8-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2019/06/24/04/39/flowers-4295187_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+.img9-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/20/19/36/stickies-1531098_960_720.png");
+    background-size: cover;
+    background-position: center;
+}
+.img10-custom{
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/14/23/43/sticker-1457867_960_720.png");
+    background-size: cover;
+    background-position: center;
 }
